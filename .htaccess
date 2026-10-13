@@ -1,0 +1,7 @@
+# Static Homeodoc website — Apache / GoDaddy cPanel
+DirectoryIndex index.html
+Options -Indexes
+AddDefaultCharset UTF-8
+ErrorDocument 404 /404.html
+# Enable HTTPS through your hosting control panel after installing SSL.
+# No legacy URL redirects.
